@@ -1,0 +1,67 @@
+
+
+.bgcWhite{
+	background-color: white;
+	
+}
+.bgcBlack{
+	background-color: black;
+}
+.bgcPink{
+	background-color: pink;
+}
+
+
+#header{
+	background-color: black;
+	height: 45px;
+	color: pink;
+	
+}
+
+#header div{
+	height: 45px;
+	line-height: 45px;
+	}
+
+.rightHead div{
+	float: right;
+}
+
+#banner img{
+	height: 350px;
+}
+
+#startLearning{
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+#startButton{
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+	color: white;
+	background-color: #c9394a;
+	float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    margin-top: 32.5px;
+}
+#startButton:hover{
+	cursor: pointer;
+}
+.detailShow{
+	text-align: center;
+	width: 100%;
+	
+}
+.divCenter{
+	  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto; 
+    margin-top: 10px;
+    opacity: 0.5;
+}

@@ -1,67 +1,137 @@
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.testborder
+{
+	border: solid 1px #DD1144;
+}
+.carousel
+{
+	height: 500px;
+	background-color: #000000;
+	 
+}
 
+
+.carousel .item
+{
+	height: 500px;
+	background-color: #000000;
+	
+}
+
+
+.carousel img{
+	
+	width:100%;
+}
+
+
+#logo_nav
+{
+	padding-top: 50px;
+}
+
+
+#logo_nav .col-md-4{
+	text-align: center;
+}
+
+
+
+
+.main_content
+{
+	 color: #FFFFFF;
+	 
+}
+
+.main_content a
+{
+	color:#FFFFFF;
+	
+	
+}
+.main_content a:hover
+{
+	 
+	
+}
+
+.main_content .row
+{
+	 
+}
+.main_content_side
+{    
+	background: url(../img/background/side.jpg) no-repeat;
+	background-size:cover;
+	 
+}
+
+.main_content_side_right
+{
+	background: url(../img/background/side.jpg) no-repeat;
+	background-size:cover;
+	box-shadow:0px 10px 30px #808080;	
+}
+
+.main_content_mid
+{
+	 transition: all 0.5s;
+	background: url(../img/background/6.jpg) no-repeat;
+ 
+	background-size:{width:200px,height:200px};
+	box-shadow:0px 10px 30px #808080;	 
+}
+ 
+
+.fontwhite{
+	color:#FFFFFF;
+}
+
+.fontblue
+{   font-family:"微软雅黑";
+	color:#003BB3;
+}
+
+
+
+.paddingTop50
+{
+	padding-top: 50px;
+}
+
+.paddingLeft30px
+{
+   padding-left:30px;	
+}
+
+.paddingRight30px
+{
+   padding-right:30px;	
+}
+
+.paddingAll30px
+{
+	padding:30px;
+}
+
+.marginTop28px
+{
+	margin-top: 28px;
+}
+ .marginLeft50px
+ {
+ 	margin-left: 50px;
+ }
+
+.pinkFont{
+      color: pink !important;
+}
 
 .bgcWhite{
-	background-color: white;
-	
+	background-color: black !important;
 }
-.bgcBlack{
-	background-color: black;
-}
-.bgcPink{
-	background-color: pink;
-}
-
-
-#header{
-	background-color: black;
-	height: 45px;
-	color: pink;
-	
-}
-
-#header div{
-	height: 45px;
-	line-height: 45px;
-	}
-
-.rightHead div{
-	float: right;
-}
-
-#banner img{
-	height: 350px;
-}
-
-#startLearning{
-	text-align: center;
-	height: 100px;
-	line-height: 100px;
-}
-#startButton{
-	text-align: center;
-	line-height: 35px;
-	height: 35px;
-	color: white;
-	background-color: #c9394a;
-	float: none;  
-    display: block;  
-    margin-left: auto;  
-    margin-right: auto;  
-    margin-top: 32.5px;
-}
-#startButton:hover{
-	cursor: pointer;
-}
-.detailShow{
-	text-align: center;
-	width: 100%;
-	
-}
-.divCenter{
-	  
-    display: block;  
-    margin-left: auto;  
-    margin-right: auto; 
-    margin-top: 10px;
-    opacity: 0.5;
-}
+/*加入动画*/
